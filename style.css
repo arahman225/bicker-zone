@@ -132,15 +132,25 @@
     background-color: #0f8cbd;
     color:white;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .secondary-btn{
     padding:8px 30px;
     background-color: transparent;
-    color:white;
+    color:#0f8cbd;
+    font-size: 16px;
+    font-weight: 500;
+    border:1px solid #0f8cbd;
+    border-radius: 5px;
     margin-top: 25px;
+    transition: .5s ease-in;
+    cursor: pointer;
 }
-
+.secondary-btn:hover{
+    background-color: #0f8cbd;
+    color: white;
+}
 .lg-btn{
     padding: 6px 16px;
     background-color: #0f8cbd;
