@@ -102,6 +102,10 @@
     border: 1px solid #0ca5e213
 }
 
+
+.banner-content-text{
+    width: 50%;
+}
 /* latest news styling end */
 
 /* -------------  shared styling  start--------------- */
@@ -121,7 +125,9 @@
 .space-between{
     justify-content: space-between;
 }
-
+img{
+    width: 100%;
+}
 .primary-btn{
     padding: 8px 30px;
     border-radius: 5px;
@@ -180,3 +186,23 @@
     width: 100%;
 }
 /* -------------  shared styling  end--------------- */
+
+
+
+
+
+/* responsive styling start */
+
+@media screen and (max-width:577px) {
+    .flex{
+        flex-direction: column;
+    }
+    .banner-content-text{
+        width: 100%;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* responsive styling end */
